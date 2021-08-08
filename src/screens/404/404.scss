@@ -1,0 +1,10 @@
+.err-cont {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .err {
+    font-size: 56px;
+    font-weight: 600;
+  }
+}

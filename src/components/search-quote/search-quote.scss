@@ -1,0 +1,21 @@
+.search-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    button{
+      font-size: 12px;
+      font-weight: 500;
+      @media (max-width: 426px) {
+        margin-top: 1rem;
+      }
+    }
+    @media (max-width: 426px) {
+      flex-direction: column;
+      width: 80%;
+    }
+}
