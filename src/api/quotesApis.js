@@ -6,7 +6,7 @@ let headers = {
 }
 
 const api = axios.create({
-    baseURL: `${process.env.REACT_APP_BASE_URL}`
+    baseURL: `https://quote-api-app.herokuapp.com`
 });
 
 // Author api
